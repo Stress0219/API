@@ -10,13 +10,13 @@ const router = express.Router();
 router.get('/bugs', getAllBugs);
 router.get('/bugs/:id', getBugById);
 
-// Rutas para crear un nuevo bug
+// Ruta para crear un nuevo bug
 router.post('/bugs', createBug);
 
-// Rutas para actualizar un bug existente
+// Ruta para actualizar un bug existente
 router.put('/bugs/:id', updateBug);
 
-// Rutas para eliminar un bug existente
+// Ruta para eliminar un bug existente
 router.delete('/bugs/:id', deleteBug);
 
 //Rutas para listar Usuarios
